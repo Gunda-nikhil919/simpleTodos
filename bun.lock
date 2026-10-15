@@ -11,6 +11,7 @@
         "chalk": "4.1.0",
         "react": "17.0.1",
         "react-dom": "17.0.1",
+        "uuid": "^14.0.3",
       },
       "devDependencies": {
         "eslint-config-airbnb": "18.2.1",
@@ -2711,7 +2712,7 @@
 
     "utils-merge": ["utils-merge@1.0.1", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/utils-merge/-/utils-merge-1.0.1.tgz", {}, "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA=="],
 
-    "uuid": ["uuid@8.3.2", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/uuid/-/uuid-8.3.2.tgz", { "bin": { "uuid": "dist/bin/uuid" } }, "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="],
+    "uuid": ["uuid@14.0.3", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/uuid/-/uuid-14.0.3.tgz", { "bin": { "uuid": "dist-node/bin/uuid" } }, "sha512-Sc5u1VVln93y1Xnz4R+CunOZc7R9LUcTmhj7Rc7Eg3HVcf7rVn2FOoa812fe0W8p3jD7xeoGSYbfqCGGH2B6xw=="],
 
     "v8-compile-cache": ["v8-compile-cache@2.4.0", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/v8-compile-cache/-/v8-compile-cache-2.4.0.tgz", {}, "sha512-ocyWc3bAHBB/guyqJQVI5o4BZkPhznPYUG2ea80Gond/BgNWpap8TOmLSeeQG7bnh2KMISxskdADG59j7zruhw=="],
 
@@ -3223,6 +3224,8 @@
 
     "node-notifier/semver": ["semver@7.8.5", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/semver/-/semver-7.8.5.tgz", { "bin": { "semver": "bin/semver.js" } }, "sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA=="],
 
+    "node-notifier/uuid": ["uuid@8.3.2", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/uuid/-/uuid-8.3.2.tgz", { "bin": { "uuid": "dist/bin/uuid" } }, "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="],
+
     "node-notifier/which": ["which@2.0.2", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/which/-/which-2.0.2.tgz", { "dependencies": { "isexe": "^2.0.0" }, "bin": { "node-which": "./bin/node-which" } }, "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="],
 
     "normalize-package-data/semver": ["semver@5.7.2", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/semver/-/semver-5.7.2.tgz", { "bin": { "semver": "bin/semver" } }, "sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g=="],
@@ -3426,6 +3429,8 @@
     "snapdragon-node/define-property": ["define-property@1.0.0", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/define-property/-/define-property-1.0.0.tgz", { "dependencies": { "is-descriptor": "^1.0.0" } }, "sha512-cZTYKFWspt9jZsMscWo8sc/5lbPC9Q0N5nBLgb+Yd915iL3udB1uFgS3B8YCx66UVHq018DAVFoee7x+gxggeA=="],
 
     "snapdragon-util/kind-of": ["kind-of@3.2.2", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/kind-of/-/kind-of-3.2.2.tgz", { "dependencies": { "is-buffer": "^1.1.5" } }, "sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ=="],
+
+    "sockjs/uuid": ["uuid@8.3.2", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/uuid/-/uuid-8.3.2.tgz", { "bin": { "uuid": "dist/bin/uuid" } }, "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="],
 
     "sockjs-client/debug": ["debug@3.2.7", "https://ccbp-ide-drops-110916805156.d.codeartifact.ap-south-1.amazonaws.com/npm/npm-store/debug/-/debug-3.2.7.tgz", { "dependencies": { "ms": "^2.1.1" } }, "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ=="],
 
